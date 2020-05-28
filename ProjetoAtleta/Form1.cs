@@ -47,7 +47,7 @@ namespace ProjetoAtleta
             altura1 = double.Parse(altura.Text);
             imc = peso1 / (altura1 * altura1);
 
-            MessageBox.Show("Dados Obtidos: " + obj.ImprimeDados() +
+            MessageBox.Show("Dados 1 Obtidos: " + obj.ImprimeDados() +
                 "\n\nSeu IMC: " + imc +
                 "\n\nIdade: " + obj.CalcularIdade().ToString("00"));
             idade.Text = obj.CalcularIdade().ToString();
